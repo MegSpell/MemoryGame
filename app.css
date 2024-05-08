@@ -1,0 +1,51 @@
+#game div {
+  border: 3px solid white;
+  border-radius: 8px;
+  width: 15%;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+}
+#game div:not(.flipped) {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 19%,
+    rgba(239, 143, 143, 1) 96%
+  );
+  border: 3px solid white;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+#game div:hover {
+  box-shadow: 5px 5px 10px 2px white;
+  transform: translateY(-4px);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Play", sans-serif;
+  color: tomato;
+  font-size: 4rem;
+  text-shadow: 6px 6px 6px white;
+}
+
+.match {
+  color: turquoise;
+}
+
+.colors {
+  color: mediumvioletred;
+}
+
+body {
+  background: rgb(203, 238, 197);
+  background: radial-gradient(
+    circle,
+    rgba(203, 238, 197, 1) 0%,
+    rgba(82, 219, 75, 0.8468677494199536) 100%
+  );
+}
